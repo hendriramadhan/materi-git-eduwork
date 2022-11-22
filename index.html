@@ -16,6 +16,7 @@
   <body>
     <div class="container">
       <h1 class="text-center" style="margin: 20px">Materi git</h1>
+
       <!-- INTRO -->
       <h2>Apa itu git?</h2>
       <h5>Deskripsi</h5>
@@ -42,6 +43,7 @@
         <li>Backup sour code</li>
         <li>Berkolaborasi dengan programmer dunia</li>
       </ul>
+
       <!-- FUNDAMENTAL GIT -->
       <h2>Fundamental GIT</h2>
       <h5>Deskripsi</h5>
@@ -73,6 +75,58 @@
         <li>Git remote</li>
         <li>Git push</li>
         <li>Git pull</li>
+      </ul>
+
+      <!-- BRANCH -->
+      <h2>Branch</h2>
+      <h5>Deskripsi</h5>
+      <ul>
+        <li>Cabang / copyan dari repo</li>
+      </ul>
+      <h5>Manfaat</h5>
+      <ul>
+        <li>Parallel development</li>
+        <li>
+          Bisa digunakan untuk memanajemen pengembangan. Misal test branch,
+          unstable branch, stable branch
+        </li>
+      </ul>
+      <h5>Kapan dibutuhkan</h5>
+      <ul>
+        <li>Saat mengembangakan fitur baru</li>
+      </ul>
+      <h5>Pembahasan branch</h5>
+      <ul>
+        <li><strong>Git branch</strong>: melihat semua branch (local)</li>
+        <li>
+          <strong>Git branch --all</strong>: melihat semua branch (public)
+        </li>
+        <li><strong>Git branch nama_branch</strong>: membuat branch baru</li>
+        <li>
+          <strong>Git checkout nama_branch</strong>: untuk berpindah branch
+        </li>
+        <li>
+          <strong>Git branch -d nama_branch</strong>: untuk menghapus branch
+        </li>
+      </ul>
+
+      <h5>Git merge nama_branch</h5>
+      <ul>
+        <li>untuk menggabungkan commit dari 2 branch</li>
+        <li>Relatif terhadap branch yang aktif saat ini</li>
+        <li>
+          Untuk melakukan merge harus dipastikan tidak ada file yang belum di
+          commit
+        </li>
+      </ul>
+      <h5>Conflict</h5>
+      <ul>
+        <li>
+          Kondisi yang terjadi ketika merging 2 branch yang memiliki perubahan
+          pada file yang sama
+        </li>
+        <li>Ketika conflict, kita tidak bisa melakukan commit</li>
+        <li>Untuk melakukan commit, conflict harus diselesaikan dulu</li>
       </ul>
     </div>
 
